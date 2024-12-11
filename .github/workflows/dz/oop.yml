@@ -1,0 +1,12 @@
+name: CI/CD Pipeline
+on: 
+  push:
+    branches: [ main, master ]
+  pull_request:
+     branches: [ main, master ]
+jobs: 
+  print:
+    runs-on: windows-latest
+    steps:
+      - name: Print to console
+        run: eco Hello GH Actioms!
