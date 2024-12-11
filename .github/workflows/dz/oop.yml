@@ -10,5 +10,3 @@ jobs:
     steps:
       - name: Print to console
         run: eco Hello GH Actioms!
-      
-      
